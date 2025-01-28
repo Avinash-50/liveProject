@@ -1,0 +1,143 @@
+.Blog{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+   height: 500px;
+   justify-content: space-between;
+   gap: 20px;
+
+}
+.Left_section{
+   
+    width: 50%;
+    height: 100%;
+    color: aliceblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.box{
+width: 628px;
+height: 280px;
+
+border-radius: 15px;
+background-color: #303030;
+;
+
+
+}
+.Right_section {
+    width: 50%;
+   
+   padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+.Heading {
+    font-size: 28px;
+    
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-family: Gilroy-Bold;
+font-size: 28px;
+font-weight: 400;
+line-height: 42px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.sub-heading {
+    
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-family: Gilroy-Medium;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.date {
+   color: #ffffff;
+    margin-bottom: 8px;
+    font-family: Gilroy-Medium;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.dotbox {
+    width: 10px;
+    height: 10px;
+    background-color: #FF08B6;
+
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.name{
+    font-family: Gilroy-Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #ffffff;
+}
+
+.btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn {
+    background: linear-gradient(90deg, #FF08B6 0%, #FF9604 100%);
+
+    color: #ffffff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+
+.btnicon {
+    display: flex;
+    gap: 10px;
+}
+
+.btnicon button {
+    background-color: #303030;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.rightbtn{
+    background: linear-gradient(90deg, #FF08B6 0%, #FF9604 100%);
+
+
+}

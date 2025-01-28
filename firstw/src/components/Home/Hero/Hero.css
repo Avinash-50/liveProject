@@ -1,0 +1,63 @@
+
+/* Hero.css */
+
+.Hero {
+    width: 100%;
+    height: 620px;
+    background: 
+        linear-gradient(0deg, #131313, #131313), 
+        linear-gradient(0deg, #FF08A4, #FF08A4);
+    position: relative; 
+   
+}
+
+.logo {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    
+}
+.content {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    z-index: 1; 
+    color: white; 
+}
+.heading{
+font-family: Gilroy-Bold;
+font-size: 48px;
+font-weight: 400;
+line-height: 72px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.btn{
+    
+padding: 0px 20px 0px 20px;
+gap: 8px;
+border-radius: 30px;
+background-color: #131313;
+font-family: Gilroy-Bold;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+
+
+}
+
+
+
+
+    
