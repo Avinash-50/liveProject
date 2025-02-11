@@ -1,22 +1,18 @@
+import React from "react"
+import Back from '../../common/Back';
+import img from "../../../assets/Images/heroBackground.png";
 
-import React from 'react';
-import logo from '../../../assets/Images/heroBackground.png';
-
-import './Hero.css';
 const Hero = () => {
-    console.log("Hero Component Rendered");
-    return (
-        <div className='Hero'>
-         <img src={logo} alt="logo" className="logo" />
-         <div className="content">
-         <h2 className="heading">Free 18+ AI Content Generation</h2>
-         <button className='btn'>Generate Now</button>
-
-         </div>
-         
-
-            
+  return (
+    <>
+      <section className='blog-out mb'>
+        <Back name='AI GENERATION' title='Free 18+ AI Content Generation' cover={img} />
+        <div className='container recent'>
+          
         </div>
-    );
-};
+      </section>
+    </>
+  )
+}
+
 export default Hero;

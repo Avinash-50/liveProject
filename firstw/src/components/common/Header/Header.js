@@ -1,30 +1,38 @@
+// Desc: Header component for the website
 
 import React from "react";
 import { Link } from 'react-router-dom';
-import './Header.css';
+import './header.css';
 import { nav } from "../../../data/Data";
-import logo from '../../../assets/Images/logo.png';  // Correct relative path
+import logo from '../../../assets/Images/logo.png';  
 import { PiDiscordLogo } from "react-icons/pi";
 
 const Header = () => {
   return (
+    <>
     <header>
-      <nav className="Navbar">
-      <div className="Image">
+      <div className="container flex">
+      <div className="logo">
         <img src={logo} alt="logoimg" className="logoimg" />
       </div>
-        <ul>
+      <nav className="nav">
+      <ul className="small flex">
           {nav.map((item, index) => (
             <li key={index}>
               <Link to={item.path}>{item.text}</Link>
             </li>
           ))}
         </ul>
-        <div>
+      </nav>
+        
+        <div className="icon">
         <PiDiscordLogo />
         </div>
-      </nav>
+      </div>
     </header>
+
+    </>
+    
   );
 }
 

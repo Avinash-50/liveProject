@@ -1,29 +1,19 @@
-
-
 import React from "react";
 import Header from "../common/Header/Header";
+import Footer from "../common/Footer/Footer";
 import Home from "../Home/Home";
-import BLOG from "../BLOG/Blog";
-import Contact from "../Contact/Contact";
-import { Routes, Route } from "react-router-dom"; 
-
-
+import { Routes, Route } from "react-router-dom";
 
 const Pages = () => {
   return (
-    <div>
+    <div className="App">
       <Header />
-      
-      {/* Use Routes without wrapping another Router */}
-      <Routes>
-    <Route path="/home" element={<Home />} />
-    <Route path="/blog" element={<BLOG />} />
-    <Route path ="contact" element={<Contact/>} />
-</Routes>
-
-
-
-      
+      <switch>
+        <Routes>
+          <Route path="/home" element={<Home />} />
+        </Routes>
+      </switch>
+      <Footer />
     </div>
   );
 };
